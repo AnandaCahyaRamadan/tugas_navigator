@@ -12,7 +12,7 @@ class Features extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 20,
+        height: 260,
         width: 220,
         child: ListView(
             scrollDirection: Axis.horizontal,
