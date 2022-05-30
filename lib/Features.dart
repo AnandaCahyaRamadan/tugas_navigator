@@ -12,7 +12,7 @@ class Features extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 260,
+        height: 20,
         width: 220,
         child: ListView(
             scrollDirection: Axis.horizontal,
@@ -56,7 +56,7 @@ class _FeatureGridItem extends StatelessWidget {
         clipBehavior: Clip.antiAliasWithSaveLayer,
         child: Stack(
           children: <Widget>[
-            Image.network(featurePhoto.imageURL, width: 300, height: 230, fit: BoxFit.cover),
+            Image.network(featurePhoto.imageURL, width: 340, height: 230, fit: BoxFit.cover),
             Positioned(
                 top: 0,
                 left: 140,
