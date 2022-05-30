@@ -247,11 +247,11 @@ class _MyHomePageState extends State<MyHomePage> {
         onTap: _changeSelectedNavbar,
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.stacked_bar_chart), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.add_box), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.notifications), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.account_circle), label: ''),
+          BottomNavigationBarItem(icon: Icon(Icons.home)),
+          BottomNavigationBarItem(icon: Icon(Icons.stacked_bar_chart)),
+          BottomNavigationBarItem(icon: Icon(Icons.add_box)),
+          BottomNavigationBarItem(icon: Icon(Icons.notifications)),
+          BottomNavigationBarItem(icon: Icon(Icons.account_circle)),
         ],
       ),
     );
