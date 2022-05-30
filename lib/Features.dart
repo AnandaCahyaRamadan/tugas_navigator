@@ -56,7 +56,7 @@ class _FeatureGridItem extends StatelessWidget {
         clipBehavior: Clip.antiAliasWithSaveLayer,
         child: Stack(
           children: <Widget>[
-            Image.network(featurePhoto.imageURL, width: 340, height: 230, fit: BoxFit.cover),
+            Image.network(featurePhoto.imageURL, width: 300, height: 230, fit: BoxFit.cover),
             Positioned(
                 top: 0,
                 left: 140,
