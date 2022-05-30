@@ -13,7 +13,7 @@ class Features extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         height: 240,
-        width: 20,
+        width: 220,
         child: ListView(
             scrollDirection: Axis.horizontal,
             padding: EdgeInsets.all(10.0),
